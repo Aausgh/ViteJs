@@ -1,0 +1,34 @@
+.container{
+  gap: 33px;
+  padding: 10px;
+}
+
+.card{
+  width: 23%;
+  box-shadow: 0 0 5px black;
+  padding: 5px;
+  transition: all 0.4s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+
+
+.priceContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.btn{
+  height: 40px;
+  width: 35%;
+}
