@@ -43,7 +43,7 @@ const ViewProduct = ({ showView, handleViewClose, viewProduct }) => {
                               </div>
 
 
-                              <FloatingLabel controlId="floatingTextarea" label="Description" className="mb-3">
+                              <FloatingLabel controlId="floatingDesc" label="Description" className="mb-3">
                                     <Form.Control type="text" placeholder="Description" name='descripton' readOnly
                                           value={viewProduct.description}
                                     />

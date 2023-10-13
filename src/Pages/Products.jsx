@@ -115,7 +115,7 @@ const Products = () => {
             setShowEdit(true);
       }
 
-      function handleEditCHange(e) {
+      function handleEditChange(e) {
             setEditedProduct((prev) => {
                   return { ...prev, [e.target.name]: e.target.value };
             });
@@ -227,7 +227,7 @@ const Products = () => {
                                                 showEdit={showEdit}
                                                 handleEditClose={handleEditClose}
                                                 editedProduct={editedProduct}
-                                                handleEditCHange={handleEditCHange}
+                                                handleEditChange={handleEditChange}
                                                 editProduct={editProduct}
                                           />
 
