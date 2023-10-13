@@ -27,6 +27,7 @@ const Login = () => {
                   const loginResp = resp.data;
 
                   if (loginResp.status) {
+                        sessionStorage.setItem("isLoggedIn", true);
                         nav("/products");
                         successToast(loginResp.message)
                   }
