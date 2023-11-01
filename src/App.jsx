@@ -11,6 +11,7 @@ import Navmenu from './components/Navmenu'
 import Products from './Pages/Products'
 import { ToastContainer } from 'react-toastify'
 import SecureRoute from './routes/SecureRoute'
+import Weather from './Pages/Weather'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,9 +23,10 @@ function App() {
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='' element={<SecureRoute />}>
-          <Route path='/counter' element={<Counter />} />
-          <Route path='/quotes' element={<Quotes />} />
+          {/* <Route path='/counter' element={<Counter />} />
+          <Route path='/quotes' element={<Quotes />} /> */}
           <Route path='/products' element={<Products />} />
+          <Route path='/weather' element={<Weather />} />
         </Route>
       </Routes>
       <ToastContainer />

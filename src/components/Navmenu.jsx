@@ -12,16 +12,20 @@ function Navmenu() {
 
                         <Nav className="ms-auto ">
 
-                              <Nav.Link>
+                              {/* <Nav.Link>
                                     <Link to="/counter" className='text-decoration-none text-light'>Counter</Link>
                               </Nav.Link>
 
                               <Nav.Link>
                                     <Link to="/quotes" className='text-decoration-none text-light'>Quotes</Link>
-                              </Nav.Link>
+                              </Nav.Link> */}
 
                               <Nav.Link>
                                     <Link to="/products" className='text-decoration-none text-light'>Products</Link>
+                              </Nav.Link>
+
+                              <Nav.Link>
+                                    <Link to="/weather" className='text-decoration-none text-light'>Weather</Link>
                               </Nav.Link>
 
 
@@ -32,6 +36,8 @@ function Navmenu() {
                               <Nav.Link>
                                     <Link to="/signup" className='text-decoration-none text-light'>Signup</Link>
                               </Nav.Link>
+
+
 
 
                         </Nav>

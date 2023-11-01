@@ -37,6 +37,7 @@ const Products = () => {
                   setIsLoading(true);
                   const { data } = await axios.get(URL + "products");
                   setProducts(data.products);
+                  console.log(data.products);
                   setOriginalProducts(data.products);
 
                   const categories = data.products.map((product) => {

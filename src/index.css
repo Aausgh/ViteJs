@@ -1,3 +1,6 @@
+body {
+  height: 100%;
+}
 .container {
   gap: 33px;
   padding: 10px;
@@ -8,11 +11,6 @@
   /* height: 400px; */
   box-shadow: 0 0 5px black;
   padding: 5px;
-  transition: all 0.4s;
-}
-
-.card:hover {
-  transform: scale(1.05);
 }
 
 .priceContainer {
@@ -32,4 +30,24 @@
 }
 .btn1 {
   width: 10%;
+}
+
+.container-weather {
+  background: url("https://images.unsplash.com/photo-1516469679150-4fdd1f114f97?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+}
+
+.container2 {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container2 .body h1 {
+  font-size: 90px;
+}
+
+.container2 .bottom {
+  background-color: rgba(0, 0, 0, 0.1);
 }
